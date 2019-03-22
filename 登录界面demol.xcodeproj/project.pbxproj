@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE2714F22447D3100E0E136 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2714E22447D3100E0E136 /* AppDelegate.m */; };
+		CEE2715222447D3100E0E136 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2715122447D3100E0E136 /* ViewController.m */; };
+		CEE2715522447D3100E0E136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE2715322447D3100E0E136 /* Main.storyboard */; };
+		CEE2715722447D3200E0E136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE2715622447D3200E0E136 /* Assets.xcassets */; };
+		CEE2715A22447D3200E0E136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE2715822447D3200E0E136 /* LaunchScreen.storyboard */; };
+		CEE2715D22447D3200E0E136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2715C22447D3200E0E136 /* main.m */; };
+		CEE2716722447D3200E0E136 /* ____demolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2716622447D3200E0E136 /* ____demolTests.m */; };
+		CEE2717222447D3200E0E136 /* ____demolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2717122447D3200E0E136 /* ____demolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE2716322447D3200E0E136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE2714222447D3100E0E136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE2714922447D3100E0E136;
+			remoteInfo = "登录界面demol";
+		};
+		CEE2716E22447D3200E0E136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE2714222447D3100E0E136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE2714922447D3100E0E136;
+			remoteInfo = "登录界面demol";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE2714A22447D3100E0E136 /* 登录界面demol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "登录界面demol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE2714D22447D3100E0E136 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEE2714E22447D3100E0E136 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEE2715022447D3100E0E136 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEE2715122447D3100E0E136 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEE2715422447D3100E0E136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE2715622447D3200E0E136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE2715922447D3200E0E136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEE2715B22447D3200E0E136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE2715C22447D3200E0E136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE2716222447D3200E0E136 /* 登录界面demolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "登录界面demolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE2716622447D3200E0E136 /* ____demolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____demolTests.m"; sourceTree = "<group>"; };
+		CEE2716822447D3200E0E136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE2716D22447D3200E0E136 /* 登录界面demolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "登录界面demolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE2717122447D3200E0E136 /* ____demolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____demolUITests.m"; sourceTree = "<group>"; };
+		CEE2717322447D3200E0E136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE2714722447D3100E0E136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE2715F22447D3200E0E136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE2716A22447D3200E0E136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE2714122447D3100E0E136 = {
+			isa = PBXGroup;
+			children = (
+				CEE2714C22447D3100E0E136 /* 登录界面demol */,
+				CEE2716522447D3200E0E136 /* 登录界面demolTests */,
+				CEE2717022447D3200E0E136 /* 登录界面demolUITests */,
+				CEE2714B22447D3100E0E136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE2714B22447D3100E0E136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2714A22447D3100E0E136 /* 登录界面demol.app */,
+				CEE2716222447D3200E0E136 /* 登录界面demolTests.xctest */,
+				CEE2716D22447D3200E0E136 /* 登录界面demolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE2714C22447D3100E0E136 /* 登录界面demol */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2714D22447D3100E0E136 /* AppDelegate.h */,
+				CEE2714E22447D3100E0E136 /* AppDelegate.m */,
+				CEE2715022447D3100E0E136 /* ViewController.h */,
+				CEE2715122447D3100E0E136 /* ViewController.m */,
+				CEE2715322447D3100E0E136 /* Main.storyboard */,
+				CEE2715622447D3200E0E136 /* Assets.xcassets */,
+				CEE2715822447D3200E0E136 /* LaunchScreen.storyboard */,
+				CEE2715B22447D3200E0E136 /* Info.plist */,
+				CEE2715C22447D3200E0E136 /* main.m */,
+			);
+			path = "登录界面demol";
+			sourceTree = "<group>";
+		};
+		CEE2716522447D3200E0E136 /* 登录界面demolTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2716622447D3200E0E136 /* ____demolTests.m */,
+				CEE2716822447D3200E0E136 /* Info.plist */,
+			);
+			path = "登录界面demolTests";
+			sourceTree = "<group>";
+		};
+		CEE2717022447D3200E0E136 /* 登录界面demolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2717122447D3200E0E136 /* ____demolUITests.m */,
+				CEE2717322447D3200E0E136 /* Info.plist */,
+			);
+			path = "登录界面demolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE2714922447D3100E0E136 /* 登录界面demol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE2717622447D3200E0E136 /* Build configuration list for PBXNativeTarget "登录界面demol" */;
+			buildPhases = (
+				CEE2714622447D3100E0E136 /* Sources */,
+				CEE2714722447D3100E0E136 /* Frameworks */,
+				CEE2714822447D3100E0E136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "登录界面demol";
+			productName = "登录界面demol";
+			productReference = CEE2714A22447D3100E0E136 /* 登录界面demol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE2716122447D3200E0E136 /* 登录界面demolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE2717922447D3200E0E136 /* Build configuration list for PBXNativeTarget "登录界面demolTests" */;
+			buildPhases = (
+				CEE2715E22447D3200E0E136 /* Sources */,
+				CEE2715F22447D3200E0E136 /* Frameworks */,
+				CEE2716022447D3200E0E136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE2716422447D3200E0E136 /* PBXTargetDependency */,
+			);
+			name = "登录界面demolTests";
+			productName = "登录界面demolTests";
+			productReference = CEE2716222447D3200E0E136 /* 登录界面demolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEE2716C22447D3200E0E136 /* 登录界面demolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE2717C22447D3200E0E136 /* Build configuration list for PBXNativeTarget "登录界面demolUITests" */;
+			buildPhases = (
+				CEE2716922447D3200E0E136 /* Sources */,
+				CEE2716A22447D3200E0E136 /* Frameworks */,
+				CEE2716B22447D3200E0E136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE2716F22447D3200E0E136 /* PBXTargetDependency */,
+			);
+			name = "登录界面demolUITests";
+			productName = "登录界面demolUITests";
+			productReference = CEE2716D22447D3200E0E136 /* 登录界面demolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE2714222447D3100E0E136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEE2714922447D3100E0E136 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CEE2716122447D3200E0E136 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEE2714922447D3100E0E136;
+					};
+					CEE2716C22447D3200E0E136 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEE2714922447D3100E0E136;
+					};
+				};
+			};
+			buildConfigurationList = CEE2714522447D3100E0E136 /* Build configuration list for PBXProject "登录界面demol" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE2714122447D3100E0E136;
+			productRefGroup = CEE2714B22447D3100E0E136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE2714922447D3100E0E136 /* 登录界面demol */,
+				CEE2716122447D3200E0E136 /* 登录界面demolTests */,
+				CEE2716C22447D3200E0E136 /* 登录界面demolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE2714822447D3100E0E136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2715A22447D3200E0E136 /* LaunchScreen.storyboard in Resources */,
+				CEE2715722447D3200E0E136 /* Assets.xcassets in Resources */,
+				CEE2715522447D3100E0E136 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE2716022447D3200E0E136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE2716B22447D3200E0E136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE2714622447D3100E0E136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2715222447D3100E0E136 /* ViewController.m in Sources */,
+				CEE2715D22447D3200E0E136 /* main.m in Sources */,
+				CEE2714F22447D3100E0E136 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE2715E22447D3200E0E136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2716722447D3200E0E136 /* ____demolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE2716922447D3200E0E136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2717222447D3200E0E136 /* ____demolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE2716422447D3200E0E136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE2714922447D3100E0E136 /* 登录界面demol */;
+			targetProxy = CEE2716322447D3200E0E136 /* PBXContainerItemProxy */;
+		};
+		CEE2716F22447D3200E0E136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE2714922447D3100E0E136 /* 登录界面demol */;
+			targetProxy = CEE2716E22447D3200E0E136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE2715322447D3100E0E136 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE2715422447D3100E0E136 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE2715822447D3200E0E136 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE2715922447D3200E0E136 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE2717422447D3200E0E136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEE2717522447D3200E0E136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE2717722447D3200E0E136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7D3LC635G;
+				INFOPLIST_FILE = "登录界面demol/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mai.----demol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE2717822447D3200E0E136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7D3LC635G;
+				INFOPLIST_FILE = "登录界面demol/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mai.----demol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEE2717A22447D3200E0E136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7D3LC635G;
+				INFOPLIST_FILE = "登录界面demolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mai.----demolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/登录界面demol.app/登录界面demol";
+			};
+			name = Debug;
+		};
+		CEE2717B22447D3200E0E136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7D3LC635G;
+				INFOPLIST_FILE = "登录界面demolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mai.----demolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/登录界面demol.app/登录界面demol";
+			};
+			name = Release;
+		};
+		CEE2717D22447D3200E0E136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7D3LC635G;
+				INFOPLIST_FILE = "登录界面demolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mai.----demolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "登录界面demol";
+			};
+			name = Debug;
+		};
+		CEE2717E22447D3200E0E136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7D3LC635G;
+				INFOPLIST_FILE = "登录界面demolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mai.----demolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "登录界面demol";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE2714522447D3100E0E136 /* Build configuration list for PBXProject "登录界面demol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE2717422447D3200E0E136 /* Debug */,
+				CEE2717522447D3200E0E136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE2717622447D3200E0E136 /* Build configuration list for PBXNativeTarget "登录界面demol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE2717722447D3200E0E136 /* Debug */,
+				CEE2717822447D3200E0E136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE2717922447D3200E0E136 /* Build configuration list for PBXNativeTarget "登录界面demolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE2717A22447D3200E0E136 /* Debug */,
+				CEE2717B22447D3200E0E136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE2717C22447D3200E0E136 /* Build configuration list for PBXNativeTarget "登录界面demolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE2717D22447D3200E0E136 /* Debug */,
+				CEE2717E22447D3200E0E136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE2714222447D3100E0E136 /* Project object */;
+}
